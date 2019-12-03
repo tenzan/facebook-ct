@@ -4,7 +4,7 @@ import Start from './views/Start';
 
 Vue.use(VueRouter);
 
-export default VueRouter({
+export default new VueRouter({
     mode: 'history',
 
     routes: [
